@@ -1,0 +1,295 @@
+{
+  "stockists": [
+    {
+      "id": 1,
+      "name": "ABC Stockist",
+      "lat": 8.957041,
+      "lng": 38.73402,
+      "opens": "08:00",
+      "closes": "17:00",
+      "customerexperiencerating": 90,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ethio Stockist",
+      "lat": 8.970075,
+      "lng": 38.73971,
+      "opens": "09:00",
+      "closes": "17:00",
+      "customerexperiencerating": 70,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Addis Stockist",
+      "lat": 8.993208,
+      "lng": 38.786876,
+      "opens": "10:00",
+      "closes": "17:00",
+      "customerexperiencerating": 85,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        },
+        {
+          "name": "product5"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Muru Stockist",
+      "lat": 9.018942,
+      "lng": 38.812606,
+      "opens": "11:00",
+      "closes": "17:00",
+      "customerexperiencerating": 45,
+      "products": [
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Maru Stockist",
+      "lat": 9.026961,
+      "lng": 38.787598,
+      "opens": "12:00",
+      "closes": "15:00",
+      "customerexperiencerating": 95,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Poto Stockist",
+      "lat": 9.055259,
+      "lng": 38.753171,
+      "opens": "13:00",
+      "closes": "17:00",
+      "customerexperiencerating": 50,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Dudo Stockist",
+      "lat": 9.060105,
+      "lng": 38.734946,
+      "opens": "14:00",
+      "closes": "17:00",
+      "customerexperiencerating": 40,
+      "products": [
+        {
+          "name": "product1"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Abebe Stockist",
+      "lat": 9.054368,
+      "lng": 38.696153,
+      "opens": "15:00",
+      "closes": "17:00",
+      "customerexperiencerating": 78,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Melaku Stockist",
+      "lat": 9.07493,
+      "lng": 38.673526,
+      "opens": "16:00",
+      "closes": "17:00",
+      "customerexperiencerating": 69,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tola Stockist",
+      "lat": 9.069977,
+      "lng": 38.665298,
+      "opens": "17:00",
+      "closes": "17:00",
+      "customerexperiencerating": 85,
+      "products": [
+        {
+          "name": "product1"
+        },
+        {
+          "name": "product2"
+        },
+        {
+          "name": "product3"
+        },
+        {
+          "name": "product4"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Haile Stockist",
+      "lat": 9.079616,
+      "lng": 38.729614,
+      "opens": "18:00",
+      "closes": "17:00",
+      "customerexperiencerating": 80,
+      "products": [
+        {
+          "name": "product4"
+        }
+      ]
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "name": "ABC Industries",
+      "averagequalityrating": 95,
+      "averagetrustreputation": 100
+    },
+    {
+      "id": 2,
+      "name": "QYZ Industries",
+      "averagequalityrating": 90,
+      "averagetrustreputation": 80
+    },
+    {
+      "id": 3,
+      "name": "Com Industries",
+      "averagequalityrating": 75,
+      "averagetrustreputation": 100
+    },
+    {
+      "id": 4,
+      "name": "UVW Industries",
+      "averagequalityrating": 60,
+      "averagetrustreputation": 50
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Antibacterial Soap",
+      "sellerid": 1
+    },
+    {
+      "id": 2,
+      "name": "Bed Nets",
+      "sellerid": 2
+    },
+    {
+      "id": 3,
+      "name": "Malaria Prevention Pills",
+      "sellerid": 3
+    },
+    {
+      "id": 4,
+      "name": "Liquid Handwash",
+      "sellerid": 4
+    },
+    {
+      "id": 5,
+      "name": "Healthy Kitchen Gel",
+      "sellerid": 1
+    },
+    {
+      "id": 6,
+      "name": "Antiseptic Liquid",
+      "sellerid": 2
+    },
+    {
+      "id": 7,
+      "name": "Roll-on Deodorants",
+      "sellerid": 3
+    },
+    {
+      "id": 8,
+      "name": "Spray Deodorants",
+      "sellerid": 4
+    }
+  ]
+}

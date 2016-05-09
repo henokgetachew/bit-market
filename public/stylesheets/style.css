@@ -1,0 +1,23 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #00AEEF;
+  font-weight: 100;
+  font-size: 250%;
+  margin-bottom: 0;
+}
+#map {
+  height: 85%;
+  margin: 10px;
+  border-radius: 25px;
+  border: 2px solid #00AEEF;
+}
+
+#header {
+  width:100%;
+  background-color:#00AEEF;
+  padding:5px;
+}
