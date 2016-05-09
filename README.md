@@ -15,15 +15,19 @@ Bit-Market Buyer tools for a network based goods distribution network.  The foll
 * The data fed into the system at the moment is for Addis Ababa, Ethiopia.  Zoom to Addis if you don't see any markers based on your location.
 
 ## Configuration
+Install dependencies:
 `$ npm install`
+Install webpack and its dev server:
 `$ npm install -g webpack webpack-dev-server`
+Install json-server:
 `$ npm install -g json-server`
 
 ## Running the JSON Server (Simulating the back end)
-Open a terminal window.
+Open a terminal window:
 `$ cd back-end-server-mock`
-`$ json-server db.json`
-The server is now accessible over at http://localhost:3000/.  
+Run the json server with `--watch` in case you want to add stockist data.
+`$ json-server db.json --watch`
+The server is now accessible over at http://localhost:3000/.
 List of stockists: http://localhost:3000/stockists
 Individual Stockist: http://localhost:3000/stockists/1
 
