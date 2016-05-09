@@ -16,17 +16,17 @@ Bit-Market Buyer tools for a network based goods distribution network.  The foll
 
 ## Configuration
 Install dependencies:
-`$ npm install`
+   `$ npm install`
 Install webpack and its dev server:
-`$ npm install -g webpack webpack-dev-server`
+   `$ npm install -g webpack webpack-dev-server`
 Install json-server:
-`$ npm install -g json-server`
+   `$ npm install -g json-server`
 
 ## Running the JSON Server (Simulating the back end)
 Open a terminal window:
-`$ cd back-end-server-mock`
+   `$ cd back-end-server-mock`
 Run the json server with `--watch` in case you want to add stockist data.
-`$ json-server db.json --watch`
+   `$ json-server db.json --watch`
 The server is now accessible over at http://localhost:3000/.
 List of stockists: http://localhost:3000/stockists
 Individual Stockist: http://localhost:3000/stockists/1
@@ -35,7 +35,7 @@ The Server supports `PUT`, `POST`, `DELETE` as well as `GET`.  You can try it ou
 
 ## Running bit-market
 From inside the project root folder run:
-`$ webpack-dev-server`
+   `$ webpack-dev-server`
 
 Browse to http://localhost:8080/
 
@@ -45,3 +45,4 @@ Browse to http://localhost:8080/
 * Vote for products to be stocked near the buyer's area (Not Implemented)
 * Integrating with Google's *Get Directions* feature to the stockist
 * There is no sophisticated view layer like react at the moment because googles map's canvas becomes a bit clunky with react.  However, react will be used when building the rest of these features.
+* Add tests.
